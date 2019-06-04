@@ -1,3 +1,4 @@
+
 What happens when you initialize a repository? Why do you need to do it?
 
 	When we initialize a repository, Git starts to track any changes made to that repository. Git makes it easier for us to control different versions of our code.
@@ -12,8 +13,14 @@ change their minds before committing their work as th work present in the stagin
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	The staging area acts as an intermediate between thew working directory and the repository. We can have multiple small changes to our work that represent a single logical 
+change We can add all these small changes to the staging area and save these changes in our repository as a single commit representing one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	Suppose we have two branches. Commits made in the second branch will modify the history of the second branch only. The commit history of the first branch will remain 
+unchanged. In this way, we can access the commit history of the first branch (if we ever need to), which will remain intact irrespective of the changes made in the second branch.
 
 How do the diagrams help you visualize the branch structure?
 
