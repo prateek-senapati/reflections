@@ -1,3 +1,6 @@
+
+MY REFLECTIONS (UDACITY / HOW TO USE GIT AND GITHUB / LESSON 2) : PRATEEK SENAPATI
+
 What happens when you initialize a repository? Why do you need to do it?
 
 	When we initialize a repository, Git starts to track any changes made to that repository. Git makes it easier for us to control different versions of our code.
