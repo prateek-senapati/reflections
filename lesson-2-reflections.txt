@@ -32,6 +32,14 @@ in common.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	The merging of two branches results in the creation of a single branch (considering that the non-checked-out branch is deleted) which contains updates and changes from both 
+the branches. We represent merging in the diagram the way we do because merging actually combines the results of the commits from the two branches and puts them under a single 
+label.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Git's automatic merging will save a lot of time and effort by deciding which changes to keep and which ones to discard own its own. On the other hand, this feature might 
+cause unexpected and unwanted errors as the changes and commits Git decides to keep might not be the ones we want Git to save in the repository. Therefore, merging branches manually 
+is time-taking but a safer alternative.
