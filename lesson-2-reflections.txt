@@ -24,6 +24,9 @@ unchanged. In this way, we can access the commit history of the first branch (if
 
 How do the diagrams help you visualize the branch structure?
 
+	The diagrams represent branching through lines, just like the branches of a tree. This helps in visualising where a new branch is created and what commits the branches have 
+in common.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
