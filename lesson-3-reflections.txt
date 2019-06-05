@@ -35,4 +35,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Whenever I am testing a new feature and I am not sure whether it would work or not and there is a good chance that it might break my code
+    or ruin my work saved in the master branch, I would definitely want to make changes in a separate branch rather than directly in master. 
+    This would helpe me make sure that I merge only those new features into master which I am sure will work won't crash my previously saved
+    work in the master branch. On the other hand, if I am pretty musch sure that some new changes to the master branch won't do much harm to
+    my existing work, then I might want to commit the changes directly to the master branch. This will also save time and effort.
